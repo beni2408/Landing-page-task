@@ -4,6 +4,9 @@
   --white-color: #ffffff;
   --shadow-color: #fa7436;
   --button-color: #fa7436;
+  --page-background-color: #fefcfb;
+  --grey-color: #666666;
+  --poopins: "Poppins", sans-serif;
 }
 
 * {
@@ -11,23 +14,25 @@
   padding: 0;
   margin: 0;
 }
-
+html {
+  background-color: var(--page-background-color);
+}
 .main-menu {
   border: 1px solid black;
   width: 98.5%;
   height: 10vh;
-  padding: 20px;
+  padding: 20px 130px;
   margin: 12px;
   display: flex;
   flex-direction: row;
   align-items: center;
-  justify-content: space-evenly;
+  justify-content: space-between;
 }
 .logo {
   border: 1px solid black;
   width: 130px;
   height: 24px;
-  margin: 12px;
+  margin: 16px;
   display: flex;
   gap: 10px;
   align-items: center;
@@ -69,7 +74,7 @@
   height: 24px;
   margin: 12px;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
 }
 .login-a {
@@ -93,4 +98,87 @@
   border-radius: 5px;
   color: var(--white-color);
   box-shadow: 0 8px 16px 0 var(--shadow-color);
+}
+
+.whole-home {
+  border: 1px solid black;
+  width: 98.5%;
+  height: 78vh;
+  padding: 20px 80px;
+  margin: 12px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.home-text {
+  border: 1px solid black;
+  width: 550px;
+  height: 486px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+  justify-content: start;
+  margin: 10px;
+}
+
+.para1 {
+  font-family: "Volkhov", serif;
+  font-weight: bold;
+  font-size: 64px;
+  color: var(--black-color);
+  margin: 10px 10px 15px 0px;
+  line-height: 70px;
+}
+
+.para1 a {
+  text-decoration: none;
+  color: var(--button-color);
+  cursor: text;
+}
+
+.para2 {
+  font-family: "Poppins", sans-serif;
+
+  font-size: 20px;
+  margin: 10px 10px 15px 0px;
+}
+.para2 p {
+  color: var(--grey-color);
+  text-align: justify;
+
+  line-height: 40px;
+}
+
+.para2 button {
+  font-family: var(--poopins);
+  width: 178px;
+  height: 60px;
+  font-size: 18px;
+  background-color: var(--page-background-color);
+  border: 1px solid var(--button-color);
+  border-radius: 5px;
+  color: var(--button-color);
+  margin-top: 80px;
+}
+
+.right-home {
+  border: 1px solid black;
+  width: 521px;
+  height: 486px;
+
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  margin: 12px;
+}
+
+.card1 {
+  background-color: var(--orange-color);
+  width: 150px;
+  height: 66px;
+  border-radius: 10px;
+  position: absolute;
+  top: 256px;
+  left: 740px;
 }
