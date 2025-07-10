@@ -534,6 +534,7 @@ html {
   width: 433px;
   height: 64px;
 }
+
 .page3cards {
   /* border: var(--sample-border); */
   margin-top: 100px;
@@ -552,6 +553,7 @@ html {
   border-radius: 8px;
   background-color: #fefcfb;
 }
+
 .page3-cardframe-card2 {
   border: 0.1px solid #66666643;
   width: 270px;
@@ -568,6 +570,7 @@ html {
   background-image: url(./assets/card3-bg.png);
   background-size: cover;
 }
+
 .card2bg {
   /* border: var(--sample-border); */
   width: 270px;
@@ -602,6 +605,7 @@ html {
   justify-content: space-around;
   align-items: center;
 }
+
 .carddetails {
   /* border: var(--sample-border); */
   width: 238px;
@@ -693,3 +697,117 @@ html {
   align-items: center;
   justify-content: center;
 }
+
+.page4-wholepage {
+  border: 1px solid black;
+  width: 1920px;
+  height: 960px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.page4-frame {
+  border: 2px solid red;
+  width: 1170px;
+  height: 653px;
+  margin-right: 460px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+.page4-text {
+  border: 1px solid black;
+  width: 675px;
+  height: 54px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 22px;
+  margin-top: 5px;
+}
+.page4-text > p {
+  font-family: var(--volkhov-dont);
+  font-size: 48px;
+  line-height: 54px;
+  font-weight: bold;
+}
+
+.page4-text a {
+  text-decoration: none;
+  color: var(--button-color);
+}
+#page4fs {
+  border: var(--sample-border);
+  font-size: 18px;
+  font-style: normal;
+  font-family: var(--poopins);
+  color: var(--grey-color);
+  line-height: 32px;
+  text-align: center;
+  font-weight: 300;
+  width: 521px;
+  height: 64px;
+}
+
+.page4-cardframe {
+  border: 1px solid red;
+  width: 1170px;
+  height: 447px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 100px;
+}
+
+.page4cardsheet {
+  width: 370px;
+  height: 447px;
+  border: 2px solid blue;
+  /* border: var(--sample-border); */
+  /* border: 0.1px solid #66666643; */
+  border-radius: 16px;
+  display: flex;
+  flex-direction: column;
+}
+
+.page4cardsheet > img {
+  width: 369px;
+  height: 327px;
+}
+
+.p4cardbg1 {
+  width: 369px;
+  height: 327px;
+  border: 2px solid green;
+  display: flex;
+  justify-content: space-between;
+  /* background-image: url("./assets/page4-bg1.png");
+  background-size: cover;*/
+}
+.p4cardbg1 > img {
+  /* width: 369px;
+  height: 327px; */
+
+  border: 1px solid black;
+}
+
+/* .page4-card1bg {
+  width: 360px;
+  height: 327px;
+  border-radius: 16px;
+  /* border: 1px solid rgba(255, 0, 0, 0.2); */
+/* background-image: url("./assets/page4-bg1.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+  z-index: 1;
+}
+.cardhead {
+  border: 1px solid rgba(255, 0, 0, 0.2);
+  width: 370px;
+  height: 327px;
+} */
