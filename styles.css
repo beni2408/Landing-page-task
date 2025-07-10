@@ -9,6 +9,7 @@
   --poopins: "Poppins", sans-serif;
   --blue-white-color: #f7f8fc;
   --volkhov-dont: "Volkhov", serif;
+  --sample-border: 1px solid black;
 }
 
 * {
@@ -369,29 +370,31 @@ html {
 .page2-whole {
   width: 1920px;
   height: 724px;
-  border: 1px solid black;
+  /* border: 1px solid black; */
   background-color: var(--blue-white-color);
 }
 .page2frame {
   width: 1170px;
   height: 484px;
-  border: 1px solid black;
+  /* border: 1px solid black; */
   background-color: var(--blue-white-color);
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: space-around;
   margin: 145px;
+  gap: 70px;
 }
 
 .page2-text {
-  border: 1px solid black;
+  /* border: 1px solid black; */
   width: 530px;
   height: 142px;
   display: flex;
   align-items: center;
   flex-direction: column;
   gap: 22px;
+  margin-top: 110px;
 }
 
 .page2-text > p {
@@ -416,17 +419,73 @@ html {
 }
 
 .page2-cards {
-  border: 2px solid black;
+  /* border: 2px solid black; */
   width: 1170px;
   height: 278px;
   display: flex;
   justify-content: space-around;
 }
 
-.page2-card {
+.page2-card1 {
   background-color: var(--white-color);
   width: 370px;
   height: 178 px;
-  border: 1px solid black;
+  /* border: 1px solid black; */
   border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: start;
+  padding-left: 30px;
+  background-image: url(./assets/s-design-1.png);
+  background-size: cover;
+}
+.page2-card2 {
+  background-color: var(--white-color);
+  width: 370px;
+  height: 178 px;
+  /* border: 1px solid black; */
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: start;
+  padding-left: 30px;
+  background-image: url(./assets/s-design2.png);
+  background-size: cover;
+}
+
+.page2-card-img img {
+  width: 48px;
+  height: 48px;
+}
+
+.page2-card-p p {
+  font-family: var(--poopins);
+  font-size: 24px;
+  font-weight: 600;
+}
+
+#page2cardfs {
+  font-family: var(--poopins);
+  font-size: 16px;
+  line-height: 26px;
+  color: var(--grey-color);
+  font-weight: normal;
+}
+
+.page3-wholepage {
+  border: 1px solid black;
+  width: 1920px;
+  height: 960px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.page3-frame {
+  border: var(--sample-border);
+  width: 1170px;
+  height: 720px;
+  margin-right: 460px;
 }
