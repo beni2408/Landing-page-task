@@ -386,13 +386,33 @@ html {
 
 .page2-text {
   border: 1px solid black;
-  width: 521px;
+  width: 530px;
   height: 142px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 22px;
 }
 
 .page2-text > p {
   font-family: var(--volkhov-dont);
   font-size: 48px;
+  line-height: 54px;
+  font-weight: bold;
+}
+
+.page2-text a {
+  text-decoration: none;
+  color: var(--button-color);
+}
+#page2fs {
+  font-size: 18px;
+  font-style: normal;
+  font-family: var(--poopins);
+  color: var(--grey-color);
+  line-height: 32px;
+  text-align: center;
+  font-weight: normal;
 }
 
 .page2-cards {
@@ -408,4 +428,5 @@ html {
   width: 370px;
   height: 178 px;
   border: 1px solid black;
+  border-radius: 8px;
 }
