@@ -2,7 +2,7 @@
   --black-color: #222222;
   --orange-color: #fd8d3a;
   --white-color: #ffffff;
-  --shadow-color: #fa7436;
+  --shadow-color: rgb(250, 116, 54);
   --button-color: #fa7436;
   --page-background-color: rgb(254, 252, 251);
   --grey-color: #666666;
@@ -100,7 +100,7 @@ html {
   border: none;
   border-radius: 5px;
   color: var(--white-color);
-  box-shadow: 0 8px 16px 0 var(--shadow-color);
+  box-shadow: 0 5px 25px 0 rgba(250, 116, 54, 0.495);
 }
 
 .whole-home {
@@ -1129,4 +1129,205 @@ html {
 
 #p6slider {
   margin-top: 50px;
+}
+
+.p7wholepage {
+  width: 1920px;
+  height: 896px;
+  border: var(--sample-border);
+  display: flex;
+  /* align-items: center; */
+}
+
+.p7frame {
+  z-index: 2;
+  width: 1173px;
+  height: 853px;
+  border: var(--sample-border);
+  margin-left: 140px;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  /* align-items: center; */
+}
+
+.p7card1 {
+  width: 1170.25px;
+  height: 416px;
+  border: 1px solid var(--orange-color);
+  background-color: var(--button-color);
+  border-radius: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.p7card1text {
+  width: 708px;
+  height: 256px;
+  background-color: var(--button-color);
+  border: 1px solid white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.p7-text {
+  z-index: 4;
+  width: 708px;
+  height: 124px;
+  border: 1px solid white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+.p7-text > p {
+  text-align: center;
+  width: 708px;
+  height: 104px;
+  font-family: var(--volkhov-dont);
+  font-size: 48px;
+  color: white;
+  font-weight: bold;
+}
+
+.p7email {
+  z-index: 4;
+  width: 674px;
+  height: 68px;
+  background-color: white;
+  border-radius: 10px;
+  border: 2px solid black;
+  display: flex;
+  justify-content: space-between;
+
+  align-items: center;
+}
+.p7email button {
+  width: 132px;
+  height: 50px;
+  margin-right: 10px;
+  font-family: var(--poopins);
+  font-size: 16px;
+  color: white;
+  background-color: var(--button-color);
+  border-radius: 8px;
+  border: none;
+}
+
+.emaildetail1 {
+  padding: 30px;
+  z-index: 3;
+  width: 210.67px;
+  height: 24px;
+  font-size: 16px;
+  font-family: var(--poopins);
+  color: grey;
+  font-weight: 400;
+  line-height: 26px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: 300;
+  /* margin-bottom: 10px; */
+}
+
+#p7rounded {
+  position: absolute;
+  z-index: 0;
+  top: 5080px;
+  left: 145px;
+}
+#p7coconut {
+  width: 112.25px;
+  height: 113.32px;
+  position: absolute;
+  z-index: 0;
+  top: 5030px;
+  right: 158px;
+}
+
+.p7bluebg {
+  z-index: 0;
+  margin-top: 250px;
+  margin-bottom: 0px;
+  position: absolute;
+  width: 1920px;
+  height: 688px;
+  background-color: var(--blue-white-color);
+}
+.p7-credits {
+  margin-top: 100px;
+  width: 1170.25px;
+  height: 210px;
+  border: var(--sample-border);
+  display: flex;
+
+  justify-content: space-between;
+  align-items: start;
+}
+
+.p7details1 {
+  width: 254px;
+  height: 176px;
+  border: var(--sample-border);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.logo7 {
+  /* border: 1px solid black; */
+  width: 130px;
+  height: 24px;
+  /* margin: 16px; */
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+}
+.logo7-text {
+  font-family: "Volkhov", serif;
+  font-weight: bold;
+  font-size: 24px;
+  color: #222222;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: var(--sample-border);
+}
+.logo7-img {
+  width: 20px;
+  height: 20px;
+}
+
+#p7txt1 {
+  width: 254px;
+  height: 64px;
+  font-size: 16px;
+  font-family: var(--poopins);
+  color: grey;
+  font-weight: 500;
+  line-height: 26px;
+  /* margin-bottom: 10px; */
+}
+
+.p7-logos {
+  width: 176px;
+  height: 48px;
+  border: var(--sample-border);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.p7-logos img {
+  width: 60px;
+  height: 60px;
+}
+
+#size-70 {
+  width: 70px;
+  height: 70px;
 }
