@@ -1045,3 +1045,88 @@ html {
   height: 178.06px;
   margin-left: 100px;
 }
+
+.p6wholepage {
+  width: 1920px;
+  height: 805px;
+  /* border: var(--sample-border); */
+  display: flex;
+  align-items: center;
+}
+.p6frame {
+  width: 1170px;
+  height: 565px;
+  /* border: var(--sample-border); */
+  margin-left: 140px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.p6-text {
+  width: 646px;
+  height: 54px;
+  /* border: var(--sample-border); */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+.p6-text > p {
+  text-align: center;
+  width: 648px;
+  height: 54px;
+  font-family: var(--volkhov-dont);
+  font-size: 48px;
+  color: var(--black-color);
+  font-weight: bold;
+}
+
+.p6-text a {
+  text-decoration: none;
+  cursor: text;
+  color: var(--button-color);
+}
+
+.p6cardframe {
+  margin-top: 50px;
+  width: 1170px;
+  height: 388px;
+  /* border: 1px solid red; */
+  display: flex;
+  justify-content: space-between;
+}
+.p6card {
+  width: 270px;
+  height: 388px;
+  /* border: 0.8px solid rgb(102, 102, 102, 8); */
+  border-radius: 8px;
+  /* background-color: white; */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: start;
+}
+
+#p6detail1 {
+  font-size: 18px;
+  font-family: var(--poopins);
+  color: var(--black-color);
+  font-weight: 500;
+  line-height: 26px;
+  margin-top: 15px;
+}
+#p6detail2 {
+  font-size: 16px;
+  font-family: var(--poopins);
+  color: grey;
+  font-weight: 400;
+  line-height: 26px;
+  /* margin-bottom: 10px; */
+}
+
+#p6slider {
+  margin-top: 50px;
+}
