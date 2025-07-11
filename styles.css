@@ -701,7 +701,7 @@ html {
 .page4-background {
   width: 1920px;
   height: 893px;
-  border: 1px solid black;
+  /* border: 1px solid black; */
   justify-content: center;
   align-items: center;
   padding: 100px;
@@ -709,17 +709,29 @@ html {
 .page4-frame {
   width: 1170px;
   height: 653px;
-  border: var(--sample-border);
-  margin-left: 240px;
+  /* border: var(--sample-border); */
+  margin-left: 40px;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
 }
+
+#page4framepic {
+  position: absolute;
+  left: 1030px;
+  top: 2850px;
+}
+
+#page4slider {
+  position: absolute;
+  top: 2965px;
+  right: 150px;
+}
 .page4-text {
   width: 521px;
   height: 142px;
-  border: var(--sample-border);
+  /* border: var(--sample-border); */
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -757,7 +769,7 @@ html {
   margin-top: 50px;
   width: 1170px;
   height: 447px;
-  border: 1px solid red;
+  /* border: 1px solid red; */
   display: flex;
   justify-content: space-between;
 }
@@ -770,14 +782,14 @@ html {
   background-color: white;
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
 }
 
 .page4imgslot {
   width: 369px;
   height: 327px;
-  border: 2px solid green;
+  /* border: 2px solid green; */
   border-radius: 16px;
 }
 
@@ -795,7 +807,7 @@ html {
   align-items: center;
   width: 319px;
   height: 32px;
-  border: var(--sample-border);
+  /* border: var(--sample-border); */
   font-family: var(--poopins);
   font-size: 24px;
   color: var(--black-color);
@@ -808,17 +820,18 @@ html {
 .page4carddetails {
   width: 317.31px;
   height: 24px;
-  border: var(--sample-border);
+  /* border: var(--sample-border); */
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  margin-bottom: 30px;
 }
 
 .detail1 {
-  width: 148.88px;
+  width: 125px;
   height: 24px;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
   align-items: center;
 }
 .detail1 img {
@@ -826,6 +839,26 @@ html {
   height: 16px;
 }
 .detail1 p {
-  font-size: 18px;
+  font-size: 16px;
   font-family: var(--poopins);
+  color: grey;
+  font-weight: 500;
+}
+.detail2 {
+  width: 48px;
+  height: 24px;
+  justify-content: space-between;
+  display: flex;
+  align-items: center;
+}
+.detail2 img {
+  width: 16px;
+  height: 16px;
+}
+.detail2 p {
+  width: 24px;
+  height: 24px;
+  font-family: var(--poopins);
+  font-weight: 350;
+  color: var(--grey-color);
 }
