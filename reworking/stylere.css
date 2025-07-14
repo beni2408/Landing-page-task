@@ -1,0 +1,128 @@
+:root {
+  --black-color: #222222;
+  --orange-color: #fd8d3a;
+  --white-color: #ffffff;
+  --shadow-color: rgb(250, 116, 54);
+  --button-color: #fa7436;
+  --page-background-color: rgb(254, 252, 251);
+  --grey-color: #666666;
+  --poopins: "Poppins", sans-serif;
+  --blue-white-color: #f7f8fc;
+  --volkhov-dont: "Volkhov", serif;
+  --sample-border: 1px solid black;
+}
+
+page1 {
+  width: 1920px;
+  height: 999px;
+}
+
+.main-menu {
+  border: 1px solid black;
+  width: 98.5%;
+  height: 10vh;
+  padding: 20px;
+  /* margin: 0px 375px; */
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.logo {
+  border: 1px solid black;
+  width: 130px;
+  height: 24px;
+  margin: 16px;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+}
+.logo-text {
+  font-family: "Volkhov", serif;
+  font-weight: bold;
+  font-size: 24px;
+  color: #222222;
+}
+.logo-img {
+  width: 20px;
+  height: 20px;
+}
+.menu-div {
+  border: 1px solid black;
+  width: 386px;
+  height: 24px;
+  margin: 12px;
+  display: flex;
+
+  justify-content: space-around;
+  align-items: center;
+}
+.menu-items {
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  color: #222222;
+}
+.menu-items > a {
+  text-decoration: none;
+  color: #222222;
+}
+
+.login-menu {
+  border: 1px solid black;
+  width: 22%;
+  height: 24px;
+  margin: 12px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.login-a {
+  font-family: "Poppins";
+  font-weight: 500;
+}
+
+.login-a > a {
+  text-decoration: none;
+  color: var(--orange-color);
+}
+
+.login-menu button {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  width: 161px;
+  height: 50px;
+  font-size: 16px;
+  background-color: var(--button-color);
+  border: none;
+  border-radius: 5px;
+  color: var(--white-color);
+  box-shadow: 0 5px 25px 0 rgba(250, 116, 54, 0.495);
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .login-menu button {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    width: 100px;
+    height: 50px;
+    font-size: 16px;
+    background-color: var(--button-color);
+    border: none;
+    border-radius: 5px;
+    color: var(--white-color);
+    box-shadow: 0 5px 25px 0 rgba(250, 116, 54, 0.495);
+  }
+  .main-menu {
+    border: 1px solid black;
+    /* width: 98.5%;x */
+    height: 10vh;
+    padding: 20px;
+    /* margin: 0px 375px; */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
+}
