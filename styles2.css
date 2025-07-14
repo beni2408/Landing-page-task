@@ -1408,3 +1408,10 @@ html {
 .finalclass {
   height: 20px;
 }
+
+/* .page1 {
+  display: flex;
+  flex-direction: column;
+
+  justify-content: center;
+} */
